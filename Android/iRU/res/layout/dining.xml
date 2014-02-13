@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000033" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Radford Dining"
+        android:textSize="18pt"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Choose a Dining Hall from the list below to see the hours:"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_horizontal|center_vertical" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:prompt="@string/spinner_prompt" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:background="#000033"
+        android:clickable="false"
+        android:editable="false"
+        android:enabled="false"
+        android:gravity="fill_horizontal"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF" >
+
+	</EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="24dp"
+        android:text="Click to Download Today's Menu"
+        android:textColor="#FFFFFF"
+        android:background="#000033"
+        android:padding="15dp" />
+
+</RelativeLayout>

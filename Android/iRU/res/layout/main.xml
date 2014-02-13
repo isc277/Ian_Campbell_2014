@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/maps" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignBaseline="@+id/maps"
+        android:layout_alignBottom="@+id/maps"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/sports" />
+        
+    <Button
+        android:id="@+id/dining"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@+id/maps"
+        android:layout_below="@+id/maps"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/dining" />
+
+    <Button
+        android:id="@+id/activities"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignBaseline="@+id/dining"
+        android:layout_alignBottom="@+id/dining"
+        android:layout_alignLeft="@+id/sports"
+        android:background="@drawable/activities" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/maps"
+        android:layout_below="@+id/maps"
+        android:text="Campus Maps"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/sports"
+        android:text="    RU Sports"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dining"
+        android:layout_below="@+id/dining"
+        android:text="    RU Dining"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/activities"
+        android:text="Student Activities"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+
+</RelativeLayout>

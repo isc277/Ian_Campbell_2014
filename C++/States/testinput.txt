@@ -1,0 +1,6 @@
+addState center
+addState north
+addNeighbor center north North
+addResource center redbull 100 15
+addResource north redbull 100 20
+getPrice center redbull 150

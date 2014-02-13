@@ -1,0 +1,15 @@
+addState center
+addState north
+addState south
+addState west
+addState east
+addNeighbor center north North
+addNeighbor center south South
+addNeighbor center west West
+addNeighbor center east East
+addResource center redbull 25 10
+addResource north redbull 25 10
+addResource south redbull 25 10
+addResource east redbull 25 10
+addResource west redbull 25 10
+getPrice center redbull 125

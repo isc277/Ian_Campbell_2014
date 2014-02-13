@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iRU</string>
+    <string name="spinner_prompt">Choose a Dining Hall</string>
+	<string name="sports_header">Highlander Sports</string>
+	<string name="dining_header">Radford Dining</string>
+	<string name="activities_header">Radford University Student Activities</string>
+    <string-array name="spinner_array">
+		<item>Dalton Dining Hall</item>
+		<item>Au Bon Pain</item>
+		<item>Au Bon Pain-Library</item>
+		<item>Chick-fil-A</item>
+		<item>New River Grille House</item>
+		<item>Olo Sushi</item>
+		<item>Papa John\'s</item>
+		<item>Pinkberry</item>
+		<item>Salsarita\'s</item>
+		<item>Starbucks</item>
+		<item>Wendy\'s</item>
+		<item>Wild Greens</item>
+	</string-array>
+        
+</resources>
